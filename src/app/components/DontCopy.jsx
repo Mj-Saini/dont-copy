@@ -6,7 +6,7 @@ const DontCopy = () => {
         const handleCopy = async (e) => {
             e.preventDefault();
             try {
-                await navigator.clipboard.writeText("🖕🖕");
+                await navigator.clipboard.writeText("hpp 😂");
              
             } catch (err) {
                 console.error("Clipboard copy failed:", err);
